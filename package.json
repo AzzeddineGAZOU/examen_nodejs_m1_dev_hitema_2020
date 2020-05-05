@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "start:rest": "node ./api/index.js",
+    "start:websocket": "node ./websocket/index.js",
+    "test": "jest && npm run eslint",
     "test:watch": "jest --watch",
     "eslint": "./node_modules/.bin/eslint \"./**/*.js\""
   },
