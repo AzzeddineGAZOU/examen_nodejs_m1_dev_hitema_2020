@@ -18,7 +18,7 @@
             let user;
             let mySocket
             function connect() {
-                mySocket= new WebSocket('ws://localhost:3001');
+                mySocket= new WebSocket('ws://localhost:3003');
                 mySocket.onmessage = (messageEvent) => {
                     let data;
                     try {
